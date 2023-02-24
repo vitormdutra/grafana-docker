@@ -23,4 +23,4 @@ tar -xf bkp-grafana.tar.gz -C ${DIR}
 sed -i'' '10d' docker-compose.yml
 sed -i'' '10i \      \- '"${DIR}"':/var/lib/grafana' docker-compose.yml
 
-docker-compose restart
+docker-compose up -d
