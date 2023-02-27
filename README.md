@@ -2,9 +2,9 @@
 
 This project is a template for grafana using docker compose, to help and maximize the time for backup, restore and new tech monitoring
 
-This project contains a docker-compose file, with initial configuration, and some bash scripts for init your docker, backup the docker, and restore the docker.
+The project contains a docker-compose file, with initial configuration, and some shell scripts for init your docker, backup the docker, and restore the docker.
 
-You can optimeza this process if you want, using Jenkins for exemple
+You can optimeza this process if you want, using Jenkins for exemple;
 
 ```java
 pipeline {
