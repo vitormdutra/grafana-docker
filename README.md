@@ -1,4 +1,4 @@
-# Grafana - Backup Docker
+# Grafana -  Docker Project
 
 This project is a template for grafana using docker compose, to help and maximize the time for backup, restore and new tech monitoring
 
@@ -42,3 +42,5 @@ pipeline {
 }
 ```
 All shell script use a -d parameter for directory, if you set the wrong directory, the will fail, but he won't say it to you, so be careful.
+
+[Documentation](https://grafana.com/docs/grafana/latest/setup-grafana/installation/docker/#run-grafana-docker-image)
