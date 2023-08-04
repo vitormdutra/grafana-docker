@@ -4,7 +4,7 @@ This project is a template for grafana using docker compose, to help and maximiz
 
 The project contains a docker-compose file, with initial configuration, and some shell scripts for init your docker, backup the docker, and restore the docker.
 
-You can optimeza this process if you want, using Jenkins for exemple;
+You can optimeza this process if you want, using Jenkins Pipeline for exemple;
 
 ```java
 pipeline {
